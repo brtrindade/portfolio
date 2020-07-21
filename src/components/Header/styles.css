@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 48px auto;
+}
+
+.header__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #66FCF1;
+}
+
+.header__social-medias {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__social-medias a {
+  margin-left: 16px;
+}
+
+.header__social-medias .icon {
+  color: #66FCF1
+}
+
+.header__social-medias .icon:hover {
+  color: #45A29E
+}
